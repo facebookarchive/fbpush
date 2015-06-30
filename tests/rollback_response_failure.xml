@@ -1,0 +1,5 @@
+<rpc-reply xmlns:junos="http://xml.juniper.net/junos/XX.x.x/junos">
+<xnm:error xmlns="namespace-URL" xmlns:xnm="namespace-URL">
+  <message>locking_failure</message>
+</xnm:error>
+</rpc-reply>

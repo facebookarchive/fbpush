@@ -1,0 +1,8 @@
+<rpc-reply xmlns:junos="http://xml.juniper.net/junos/XX.x.x/junos">
+<load-configuration-results>
+  <load-success/>
+  <xnm:error xmlns="namespace-URL" xmlns:xnm="namespace-URL">
+      <message>upload_failure</message>
+  </xnm:error>
+</load-configuration-results>
+</rpc-reply>

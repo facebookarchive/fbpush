@@ -1,0 +1,12 @@
+<rpc-reply xmlns:junos="http://xml.juniper.net/junos/XX.x.x/junos">
+  <commit-results>
+    <routing-engine junos:style="show-name">
+      <name>re0</name>
+      <commit-check-success/>
+    </routing-engine>
+    <routing-engine junos:style="show-name">
+      <name>re1</name>
+      <commit-check-success/>
+    </routing-engine>
+  </commit-results>
+</rpc-reply>

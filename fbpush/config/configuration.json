@@ -1,0 +1,23 @@
+{
+    "configurator":{
+        "OPTION_ATTRS" : ["names", "vendors", "locations", "ips"],
+        "LOG_DIR" : null,
+        "LOG_LEVELS" : {"0": 40, "1": 30, "2": 20, "3": 10},
+        "LOG_ERROR_VERBOSITY" : 0,
+        "LOG_VERBOSITY" : 0,
+        "LOG_DEBUG_VERBOSITY" : 3,
+        "LOG_FILENAME" : null,
+        "LOG_MAX_BYTES" : 10000000,
+        "LOG_BACKUP_COUNT" : 10,
+        "LOG_FORMAT" : "%(asctime)-15s %(levelname)s:%(name)s[%(processName)s/%(threadName)s] %(module)s:%(funcName)s.%(lineno)d %(message)s",
+        "REMINDER_PATH" : null,
+        "DRY_RUN_VENDORS" : ["juniper"],
+        "STDIN_FNAME" : "stdin-pseudo.conf",
+        "XNM_SSL_PORT" : 3220,
+        "DEFAULT_DEVICE_FILE" : "devices.json",
+        "XML_DEBUG_FILENAME" : null,
+        "HASH_F_NAME" : null,
+        "DRY_RUN_HASH_FILENAME" : null,
+        "FBPUSH_SINGLE_FILENAME" : "fbpush.diff"
+        }
+}

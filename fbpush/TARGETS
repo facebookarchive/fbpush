@@ -1,0 +1,33 @@
+python_binary (
+  name = "push",
+  main_module = "nettools.push.oss.main",
+  deps = [
+    ':fbnet_push',
+  ],
+  strict_tabs=False
+)
+
+python_library (
+  name = "fbnet_push",
+  srcs = [
+    "__init__.py",
+    "push.py",
+    "main.py",
+  ],
+  deps = [
+    "@/libfb/py:chronicle",
+    "@/libfb/py:decorators",
+    "@/nettools/collection/lib/py/config",
+    "@/nettools/fbnet:db",
+    "@/nettools/fbnet/config:config",
+    "@/nettools/fbnet/if:api-py-twisted",
+    "@/nettools/utils:config_utils",
+    "@/neteng/lib:network_sev",
+    "@/nettools/utils:annotate_django_sql",
+  ],
+  external_deps = [
+    ("Twisted", "any"),
+    ("pyOpenSSL", "0.12"),
+    ("service_identity", "any")
+  ],
+)

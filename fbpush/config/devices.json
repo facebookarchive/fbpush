@@ -1,0 +1,10 @@
+{
+"config" : [
+ {
+  "name" : "abcd001.x",
+  "vendor" : "juniper",
+  "location" : "US",
+  "ip" : "172.0.0.1"
+ }
+]
+}

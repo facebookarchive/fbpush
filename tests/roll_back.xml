@@ -1,0 +1,9 @@
+<rpc-reply xmlns:junos="http://xml.juniper.net/junos/XX.x.x/junos">
+  <commit-results>
+    <routing-engine junos:style="show-name">
+      <name>re1</name>
+      <commit-success/>
+      <output>commit confirmed will be automatically rolled back in 6 minutes unless confirmed</output>
+    </routing-engine>  
+  </commit-results>
+</rpc-reply>
