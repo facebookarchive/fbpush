@@ -1,0 +1,16 @@
+{
+"config" : [
+ {
+  "name" : "abc1",
+  "vendor" : "vendor1",
+  "location" : "location1",
+  "ip" : "10.0.0.1"
+ },
+ {
+  "name" : "abc2",
+  "vendor" : "vendor2",
+  "location" : "location2",
+  "ip" : "10.0.0.2"
+ }
+ ]
+}

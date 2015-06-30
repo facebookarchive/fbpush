@@ -1,0 +1,12 @@
+{
+  "reminder_msg": {
+    "red": [
+    ],
+    "white": [
+
+    ],
+    "yellow": [
+      "always dry_run and review the diffs before the actual push"
+    ]
+  }
+}

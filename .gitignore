@@ -1,3 +1,4 @@
-public/uploads
 tmp
 logs
+build
+dist

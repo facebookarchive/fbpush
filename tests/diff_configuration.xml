@@ -1,0 +1,11 @@
+<rpc-reply xmlns:junos="http://xml.juniper.net/junos/XX.x.x/junos">
+  <configuration-information>
+    <configuration-output>
+      [edit]
+      - /* $Id$ name: abcd; vendor: juniper */
+      - /* Created: Wed Jun  3 08:08:02 2015 */
+      + /* $Id:$ name: abcd; vendors: juniper */
+        groups { ... }
+    </configuration-output>
+  </configuration-information>
+</rpc-reply>
