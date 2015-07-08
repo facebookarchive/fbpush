@@ -33,21 +33,13 @@ from . import config
 logger = logging.getLogger()
 
 HELP_TEXT_1 = """
-********************** FBNet Juniper Push *********************
+********************** FBPUSH *********************
 
 Description of the status line(s):
 node.site(configlet1, configlet2, ...): <Progress> [Last result]
 
 node.site -- router name (e.g. br01.ams1, etc.)
 (configlet1, ...) -- list of eligible configlets being pushed
-    eligibility of the configlet is determined by precence of tags:
-       name: router name
-       bb_role: router role (br, pr, bb, dr)
-           for compatibility with old configlets, 'role' can be used
-       continent: continent name, as defined in FBNet
-       region: region name, as defined in FBNet
-       metro: metro name, as defined in FBNet
-       site: site name, as defined in FBNet
 <Progress> -- Progress of push process, defined as:
     c: connecting
     C: Connected
@@ -447,7 +439,7 @@ class JunoscriptSslClient(protocol.Protocol):
 
     preamble = '''
         <?xml version="1.0" encoding="us-ascii"?>
-        <junoscript version="1.0" hostname="FBNet-push">
+        <junoscript version="1.0" hostname="fbpush">
     '''
 
     rpcs = {
