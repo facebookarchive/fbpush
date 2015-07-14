@@ -28,11 +28,10 @@ setup(
     entry_points={
         'console_scripts': ['fbpush=fbpush.main:run_main', ],
     },
-    # TODO url="http://pypi.python.org/pypi/MyApplication_v010/",
     license='BSD+',
     description='CLI tool to push config files to juniper network devices',
 
-    # TODO long_description=open("README.txt").read(),
+    long_description=open("README.md").read(),
     install_requires=['Twisted', 'pyOpenSSL == 0.12', 'service_identity',
                       'mock', 'nose>=1.0', ],
     test_suite=test_module,
