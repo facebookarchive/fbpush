@@ -16,7 +16,7 @@ else:
 
 
 setup(
-    name='FBPUSH',
+    name='fbpush',
     version='0.1.0alpha',
     packages=['fbpush'],
     include_package_data=True,

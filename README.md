@@ -1,9 +1,9 @@
-# FBPUSH
-**FBPUSH** is a CLI tool to push config files to Juniper network devices. 
+# fbpush
+**fbpush** is a CLI tool to push config files to Juniper network devices. 
 
 
 ## Requirements
-FBPUSH requires or works with
+fbpush requires or works with
 * Mac OS X or Linux
 * Python 2.6.* or 2.7.*
 
@@ -29,13 +29,13 @@ FBPUSH requires or works with
     
 * Adding new attributes to the above list is easy, just change the **OPTION_ATTRS** in configuration.json and add the same to devices.json.   
     
-* The **configuration.json** contains a list of configuration  variables for the FBPUSH tool.  
+* The **configuration.json** contains a list of configuration  variables for the fbpush tool.  
 
   
 
-**FBPUSH is now ready to use.**   
+**fbpush is now ready to use.**   
 
-## How to use FBPUSH
+## How to use fbpush
 
 * Prepare the config files 
   * A sample config file could look like (if you are lazy one can be found in home directory too with name **sample.conf**)-      
@@ -56,7 +56,7 @@ FBPUSH requires or works with
 
 ## Full documentation
 
-**The following options are provided by the command line parser of FBPUSH. -**
+**The following options are provided by the command line parser of fbpush. -**
 
 ## Options: ##
     -h, --help                                                          Display the Help Message   
@@ -99,7 +99,7 @@ FBPUSH requires or works with
 
 
 
-## Join the FBPUSH community
+## Join the fbpush community
 * Website:  
 * Facebook page:  
 * Mailing list  
@@ -107,4 +107,4 @@ FBPUSH requires or works with
 * **Pull request are always welcome. See the CONTRIBUTING file for how to help out.***  
 
 ## License
-FBPUSH is BSD-licensed. We also provide an additional patent grant.
+fbpush is BSD-licensed. We also provide an additional patent grant.

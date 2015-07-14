@@ -33,7 +33,7 @@ from . import config
 logger = logging.getLogger()
 
 HELP_TEXT_1 = """
-********************** FBPUSH *********************
+********************** fbpush *********************
 
 Description of the status line(s):
 node.site(configlet1, configlet2, ...): <Progress> [Last result]

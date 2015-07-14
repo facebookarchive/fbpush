@@ -1,4 +1,4 @@
-# Contributing to FBPUSH
+# Contributing to fbpush
 We want to make contributing to this project as easy and transparent as
 possible.
 
@@ -34,6 +34,6 @@ outlined on that page and do not file a public issue.
 Please adhere to [PEP 8(https://www.python.org/dev/peps/pep-0008/).
 
 ## License
-By contributing FBPUSH, you agree that your contributions will be licensed
+By contributing fbpush, you agree that your contributions will be licensed
 under its BSD license.
 
