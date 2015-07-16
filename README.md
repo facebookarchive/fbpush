@@ -97,14 +97,6 @@ fbpush requires or works with
 * The tests can be run via setup.py using:
 * * ```sudo python setup.py test```
 
-
-
-## Join the fbpush community
-* Website:  
-* Facebook page:  
-* Mailing list  
-* irc:    
-* **Pull request are always welcome. See the CONTRIBUTING file for how to help out.***  
-
+    
 ## License
 fbpush is BSD-licensed. We also provide an additional patent grant.
