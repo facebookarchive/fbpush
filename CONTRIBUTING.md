@@ -37,3 +37,7 @@ Please adhere to [PEP 8(https://www.python.org/dev/peps/pep-0008/).
 By contributing fbpush, you agree that your contributions will be licensed
 under its BSD license.
 
+## Code of Conduct
+This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
+[code-of-conduct]: http://todogroup.org/opencodeofconduct/#fbpush/wong@fb.com
+
