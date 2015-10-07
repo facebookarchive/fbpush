@@ -48,7 +48,7 @@ fbpush requires or works with
     }
     ```   
   * Replace the **&lt;device_name&gt;** and the **&lt;user&gt;** in the above and the sample.conf is ready to test.    
-* Dry Run is currently compulsary (unless the --clowntown flag is set).
+* Dry Run is currently compulsory (unless the --clowntown flag is set).
     *   ``` $ fbpush -n sample.conf  ```
 * After dry run is succesful user should review the diff files. If the diff file looks correct conduct the actual push using
     *   ``` $ fbpush sample.conf ``` 
